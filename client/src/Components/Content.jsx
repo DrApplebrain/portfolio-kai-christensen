@@ -1,7 +1,7 @@
 import '../App.css';
 import Projects from './Projects.jsx'
 import Skills from './Skills.jsx'
-import ich from '../assets/pictures/ich.png'; // Tell Webpack this JS file uses this image
+import me from '../assets/pictures/me.png'; // Tell Webpack this JS file uses this image
 
 function Content() {
   
@@ -9,7 +9,7 @@ function Content() {
     <>
 
       <div className="content">
-      <img src={ich} alt="thats me" className='contentImage'/>
+      <img src={me} alt="thats me" className='contentImage'/>
         <p className='contentInside'>Guten Tag, ich bin Kai Christensen, 29 Jahre alt und passionierter Web-Entwickler.
           Ich bin ein Entwickler mit Leidenschaft für die Entwicklung zugänglicher, pixelgenauer Benutzeroberflächen, 
           die durchdachtes Design mit robuster Technik verbinden.
